@@ -44,6 +44,6 @@ while is_on:
             connection.login(MY_EMAIL, MY_PASSWORD)
             connection.sendmail(
                 from_addr=MY_EMAIL,
-                to_addrs="chesnokovaleks001@gmail.com",
+                to_addrs="email@gmail.com",
                 msg="Subject:Rise your eyes!\n\nISS is ahead")
     ti.sleep(60)
